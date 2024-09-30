@@ -1,0 +1,68 @@
+.card-list{
+    display: flex;
+}
+
+.card{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+@font-face {
+    font-family: "wedding-font";
+    src: url(../fonts/QwitcherGrypen-Regular.ttf);
+  }
+
+.icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.fa-solid{
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 0px 30px;
+    background-color: #bc6f51;
+    position: relative;
+    align-items: center;
+}
+
+.card h2{
+    text-align: center;
+
+}
+
+.card p{
+    text-align: center;
+    color: grey;
+    padding: 0 50px;
+}
+
+.wedding-card{
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+}
+
+.wedding-card h1{
+    font-family: wedding-font;
+    font-size: 60px;
+    padding: 0 75px;
+}
+
+.wedding-card .date{
+    font-size: 13px;
+    padding: 0 50px;
+}
+
+.wedding-card .info{
+    font-size: 10px;
+}
